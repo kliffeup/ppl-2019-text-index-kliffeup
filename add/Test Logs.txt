@@ -1,0 +1,43 @@
+
+
+Ran 5 tests in 0.002s
+
+##teamcity[enteredTheMatrix timestamp='2019-10-02T22:58:18.337']
+OK
+Launching unittests with arguments python -m unittest Functions tests.SortByOrderTest in D:\Programming Principles Projects\ppl-text-index-kliffeup\add
+
+##teamcity[testCount timestamp='2019-10-02T22:58:18.339' count='5']
+##teamcity[testSuiteStarted timestamp='2019-10-02T22:58:18.341' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests' name='Functions tests' nodeId='1' parentNodeId='0']
+##teamcity[testSuiteStarted timestamp='2019-10-02T22:58:18.341' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest' name='SortByOrderTest' nodeId='2' parentNodeId='1']
+##teamcity[testStarted timestamp='2019-10-02T22:58:18.341' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_1' name='test_1' nodeId='3' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:18.341' duration='1' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_1' name='test_1' nodeId='3' parentNodeId='2']
+##teamcity[testStarted timestamp='2019-10-02T22:58:18.341' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_2' name='test_2' nodeId='4' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:18.341' duration='0' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_2' name='test_2' nodeId='4' parentNodeId='2']
+##teamcity[testStarted timestamp='2019-10-02T22:58:18.341' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_3' name='test_3' nodeId='5' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:18.341' duration='0' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_3' name='test_3' nodeId='5' parentNodeId='2']
+##teamcity[testStarted timestamp='2019-10-02T22:58:18.341' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_4' name='test_4' nodeId='6' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:18.341' duration='0' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_4' name='test_4' nodeId='6' parentNodeId='2']
+##teamcity[testStarted timestamp='2019-10-02T22:58:18.341' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_5' name='test_5' nodeId='7' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:18.342' duration='0' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByOrderTest.test_5' name='test_5' nodeId='7' parentNodeId='2']
+
+##teamcity[enteredTheMatrix timestamp='2019-10-02T22:58:54.900']
+Launching unittests with arguments python -m unittest Functions tests.SortByFrequenceTest in D:\Programming Principles Projects\ppl-text-index-kliffeup\add
+
+
+##teamcity[testCount timestamp='2019-10-02T22:58:54.904' count='5']
+
+Ran 5 tests in 0.002s
+
+OK
+##teamcity[testSuiteStarted timestamp='2019-10-02T22:58:54.905' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests' name='Functions tests' nodeId='1' parentNodeId='0']
+##teamcity[testSuiteStarted timestamp='2019-10-02T22:58:54.905' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest' name='SortByFrequenceTest' nodeId='2' parentNodeId='1']
+##teamcity[testStarted timestamp='2019-10-02T22:58:54.905' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_1' name='test_1' nodeId='3' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:54.905' duration='1' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_1' name='test_1' nodeId='3' parentNodeId='2']
+##teamcity[testStarted timestamp='2019-10-02T22:58:54.905' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_2' name='test_2' nodeId='4' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:54.905' duration='0' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_2' name='test_2' nodeId='4' parentNodeId='2']
+##teamcity[testStarted timestamp='2019-10-02T22:58:54.906' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_3' name='test_3' nodeId='5' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:54.906' duration='0' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_3' name='test_3' nodeId='5' parentNodeId='2']
+##teamcity[testStarted timestamp='2019-10-02T22:58:54.906' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_4' name='test_4' nodeId='6' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:54.906' duration='0' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_4' name='test_4' nodeId='6' parentNodeId='2']
+##teamcity[testStarted timestamp='2019-10-02T22:58:54.906' captureStandardOutput='true' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_5' name='test_5' nodeId='7' parentNodeId='2']
+##teamcity[testFinished timestamp='2019-10-02T22:58:54.906' duration='0' locationHint='python<D:\Programming Principles Projects\ppl-text-index-kliffeup\add>://Functions tests.SortByFrequenceTest.test_5' name='test_5' nodeId='7' parentNodeId='2']

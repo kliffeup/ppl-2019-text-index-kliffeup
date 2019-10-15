@@ -1,4 +1,4 @@
-def sorting_by_order(recieved_dictionary):
+def sorting_by_order(recieved_vocabulary):
     """ Сортировка по лексикографическому порядку.
 
         Получаем словарь на вход, передаём его ключи списку sbo, сортируем его,
@@ -7,12 +7,12 @@ def sorting_by_order(recieved_dictionary):
         отсортированными ключами.
 
     """
-    sbo = list(recieved_dictionary.keys())
+    sbo = list(recieved_vocabulary.keys())
     sbo.sort(key=str.lower)
     return sbo
 
 
-def sorting_by_frequency(recieved_dictionary):
+def sorting_by_frequency(recieved_vocabulary):
     """ Сортировка по частоте встречи слов. (если она потребуется)
 
         Получаем на вход словарь, присваиваем списку пары "ключ-значение" из словаря,
@@ -22,7 +22,7 @@ def sorting_by_frequency(recieved_dictionary):
         Возращаем отсортированный список.
 
     """
-    sbf = list(recieved_dictionary.items())
+    sbf = list(recieved_vocabulary.items())
     sbf.sort(key=lambda p: p[1][0])
     sbf.reverse()
     return sbf

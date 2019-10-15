@@ -18,7 +18,9 @@ if small_words:
 else:
     small_words = 4
 print('Желаете составить список наиболее часто встречающихся слов?')
-print('Да - введите ЦЕЛОЕ число позиций в этом списке, Нет - введите "0":')
+# Надеюсь, что юзер всё-таки увидит приписку "ЦЕЛОЕ", прежде напечатает что-то отличное
+# от от целого положительного числа
+print('Да - введите ЦЕЛОЕ ПОЛОЖИТЕЛЬНОЕ число позиций в этом списке, Нет - введите "0":')
 top_words = int(input())
 count_of_words = 0
 print('Введите свой текст ниже, для окончания считывания переведите строку после последней строки текста'
@@ -34,6 +36,8 @@ while line != 'end of text input':
             line_number = 1
             page_number += 1
         words: List[str] = re.split("[, \"/\[\]()—!?.:;*]+", line)
+        # i бегает по элементам списка слов, считанных с вновь введённой строки;
+        # он, конечно, будет целым
         for i in words:
             if i and len(i) >= small_words:
                 if i not in vocabulary:
@@ -53,7 +57,7 @@ with open("Output.txt", 'w', encoding='utf-8') as output_data:
             if j != len(vocabulary[k][1]) - 1:
                 output_data.write(f" {vocabulary[k][1][j]},")
             else:
-                output_data.write(f" {vocabulary[k][1][j]};")
+                output_data.write(f" {vocabulary[k][1][j]}.")
         output_data.write('\n')
     if top_words:
         output_data.write(f'Список из {top_words} наиболее встречающихся cлов в тексте:\n')
@@ -63,5 +67,9 @@ with open("Output.txt", 'w', encoding='utf-8') as output_data:
         else:
             n = count_of_words
         for a in range(n):
-            output_data.write(
-                f'{sorted_by_frequence[a][0]} было встречено {sorted_by_frequence[a][1][0]} раз(а)\n')
+            if a != n - 1:
+                output_data.write(
+                    f'{sorted_by_frequence[a][0]} было встречено {sorted_by_frequence[a][1][0]} раз(а),\n')
+            else:
+                output_data.write(
+                    f'{sorted_by_frequence[a][0]} было встречено {sorted_by_frequence[a][1][0]} раз(а).\n')
